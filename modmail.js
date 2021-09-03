@@ -82,7 +82,7 @@ let delButton = new MessageButton()
 .setStyle("DANGER")
 .setLabel('Delete')
 .setCustomId('close_mail')
-.setEmoji('❌')
+.setEmoji(`${options.wrongEmoji}` || '❌')
 
 
 
@@ -188,14 +188,14 @@ user.send({ embeds: [deletedEmbed] })
 .setStyle("SUCCESS")
 .setLabel('Confirm')
 .setCustomId('confirm_mail')
-.setEmoji('✔️')
+.setEmoji(`${options.rightEmoji}` || '✔️')
 
 
   let cancleButton = new MessageButton()
 .setStyle("SECONDARY")
 .setLabel('Cancle')
 .setCustomId('cancle_mail')
-.setEmoji('❌')
+.setEmoji(`${options.wrongEmoji}` || '❌')
 
 
 let optionsRow = new MessageActionRow()

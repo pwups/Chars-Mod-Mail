@@ -16,7 +16,9 @@ charModMail.ModMail(client, {
   staffOpenedTitle: "User Opened Mod Mail",
   staffOpenedMessage: "The User Opened A Mod Mail And Is Now Wait For A Reply!",
   userOpenedTitle: "Mod Mail Created",
-  userOpenedMessage "You Created A Mod Mail Ticket!": 
+  userOpenedMessage: "You Created A Mod Mail Ticket!",
+  wrongEmoji: "EMOJI",
+  rightEmoji: "EMOJI" 
 })
 });
 ```
