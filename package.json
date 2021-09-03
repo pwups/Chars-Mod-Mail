@@ -1,10 +1,14 @@
 {
   "name": "char-mod-mail",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-h-a-r/Chars-Mod-Mail.git"
   },
   "keywords": [],
   "author": "",

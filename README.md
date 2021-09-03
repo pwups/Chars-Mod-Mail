@@ -1,5 +1,5 @@
 # Chars Mod Mail
-
+A package made with JavaScript to help you create an amazing discord mod mail bot!
 # Setup
 ```
 const charModMail = require('char-mod-mail');
