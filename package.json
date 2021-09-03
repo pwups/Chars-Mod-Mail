@@ -1,0 +1,19 @@
+{
+  "name": "char-mod-mail",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^16.6.1"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
+}
+
