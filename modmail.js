@@ -80,9 +80,9 @@ const openedUserEmbed = new Discord.MessageEmbed()
 
 let delButton = new MessageButton()
 .setStyle("SECONDARY")
-.setLabel('Delete')
+.setLabel('delete')
 .setCustomId('close_mail')
-.setEmoji(`${options.wrongEmoji}` || '❌')
+.setEmoji(`${options.wrongEmoji}` || '<:w_lock:1313388728324198430>')
 
 
 
@@ -188,14 +188,14 @@ user.send({ embeds: [deletedEmbed] })
 .setStyle("SECONDARY")
 .setLabel('confirm')
 .setCustomId('confirm_mail')
-.setEmoji(`${options.rightEmoji}` || '✔️')
+.setEmoji(`${options.rightEmoji}` || '<:w_heart:1312615479524720640>')
 
 
   let cancleButton = new MessageButton()
 .setStyle("SECONDARY")
 .setLabel('cancel')
 .setCustomId('cancle_mail')
-.setEmoji(`${options.wrongEmoji}` || '❌')
+.setEmoji(`${options.wrongEmoji}` || '<:a_bheart:1294561743661432916>')
 
 
 let optionsRow = new MessageActionRow()
@@ -218,7 +218,7 @@ let delButton2 = new MessageButton()
 .setStyle("SECONDARY")
 .setLabel('delete')
 .setCustomId('close_mail')
-.setEmoji('❌')
+.setEmoji('<:w_lock:1313388728324198430>')
 
 
 
