@@ -79,7 +79,7 @@ const openedUserEmbed = new Discord.MessageEmbed()
 
 
 let delButton = new MessageButton()
-.setStyle("DANGER")
+.setStyle("SECONDARY")
 .setLabel('Delete')
 .setCustomId('close_mail')
 .setEmoji(`${options.wrongEmoji}` || '❌')
@@ -185,15 +185,15 @@ user.send({ embeds: [deletedEmbed] })
 // Delete Buttons //
 
   let confirmButton = new MessageButton()
-.setStyle("SUCCESS")
-.setLabel('Confirm')
+.setStyle("SECONDARY")
+.setLabel('confirm')
 .setCustomId('confirm_mail')
 .setEmoji(`${options.rightEmoji}` || '✔️')
 
 
   let cancleButton = new MessageButton()
 .setStyle("SECONDARY")
-.setLabel('Cancle')
+.setLabel('cancel')
 .setCustomId('cancle_mail')
 .setEmoji(`${options.wrongEmoji}` || '❌')
 
@@ -215,8 +215,8 @@ interaction.update({ components: [optionsRow]})
   if (interaction.customId === "cancle_mail") {
 
 let delButton2 = new MessageButton()
-.setStyle("DANGER")
-.setLabel('Delete')
+.setStyle("SECONDARY")
+.setLabel('delete')
 .setCustomId('close_mail')
 .setEmoji('❌')
 
